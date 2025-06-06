@@ -1,92 +1,99 @@
-<!DOCTYPE html>
-<html lang="fa">
+<!DOCTYPE html><html lang="fa">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>کاتالوگ محصولات باران</title>
+  <title>باران تجارت | Baran Business Pro</title>
   <style>
     body {
       font-family: sans-serif;
-      background-color: #fdfdfd;
       direction: rtl;
-      text-align: center;
+      background-color: #f9f9f9;
       margin: 0;
       padding: 0;
     }
     header {
-      margin-top: 20px;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
     }
     header img {
-      width: 200px;
-      max-width: 90%;
-      height: auto;
+      max-width: 150px;
+      margin-bottom: 10px;
     }
-    h1 {
-      margin-top: 10px;
+    header h1 {
+      margin: 5px 0;
       font-size: 24px;
-      color: #333;
+    }
+    header h2 {
+      margin: 5px 0;
+      font-size: 18px;
+      color: #555;
     }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 20px;
-      gap: 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 20px;
     }
     .gallery img {
-      width: 300px;
-      max-width: 90vw;
+      width: 100%;
       border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     footer {
-      margin: 30px 0 10px;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      margin-top: 30px;
+    }
+    footer div {
+      margin-top: 10px;
       font-size: 16px;
-      color: #555;
+    }
+    .contact-icon {
+      width: 24px;
+      vertical-align: middle;
+      margin-left: 8px;
     }
   </style>
 </head>
 <body>
-
-  <!-- 🔵 لوگو در ابتدای کاتالوگ -->
   <header>
-    <img src="baran-business-pro-logo.png" alt="لوگوی باران بیزینس">
-    <h1>کاتالوگ محصولات باران</h1>
-  </header>
-
-  <!-- 🖼️ گالری تصاویر محصولات -->
-  <div class="gallery">
-    <img src="1.jpg" alt="محصول 1">
-    <img src="2.jpg" alt="محصول 2">
-    <img src="3.jpg" alt="محصول 3">
-    <img src="4.jpg" alt="محصول 4">
-    <img src="5.jpg" alt="محصول 5">
-    <img src="6.jpg" alt="محصول 6">
-    <img src="7.jpg" alt="محصول 7">
-    <img src="8.jpg" alt="محصول 8">
-    <img src="9.jpg" alt="محصول 9">
-    <img src="10.jpg" alt="محصول 10">
-    <img src="11.jpg" alt="محصول 11">
-    <img src="12.jpg" alt="محصول 12">
-    <img src="13.jpg" alt="محصول 13">
-    <img src="14.jpg" alt="محصول 14">
-    <img src="15.jpg" alt="محصول 15">
-    <img src="16.jpg" alt="محصول 16">
-    <img src="17.jpg" alt="محصول 17">
-    <img src="18.jpg" alt="محصول 18">
-    <img src="19.jpg" alt="محصول 19">
-    <img src="20.jpg" alt="محصول 20">
-    <img src="21.jpg" alt="محصول 21">
-    <img src="4- ghand -- copy.jpg" alt="محصول جدید 1">
-    <img src="4-jelly copy.jpg" alt="محصول جدید 2">
-    <img src="7-shekarpanir copy.jpg" alt="محصول جدید 3">
-    <img src="8-advie copy 3.jpg" alt="محصول جدید 4">
-  </div>
-
-  <!-- ☎️ اطلاعات تماس -->
-  <footer>
-    شماره تماس: ۰۹۱۲۷۸۶۰۶۸۲
+    <img src="logo.jpg" alt="لوگو">
+    <h1>baran business pro</h1>
+    <h2>شرکت بازرگانی باران تجارت</h2>
+    <h2>حرفه‌ای</h2>
+  </header>  <div class="gallery">
+    <img src="1.jpg" alt="product">
+    <img src="2.jpg" alt="product">
+    <img src="3.jpg" alt="product">
+    <img src="4.jpg" alt="product">
+    <img src="5.jpg" alt="product">
+    <img src="6.jpg" alt="product">
+    <img src="7.jpg" alt="product">
+    <img src="8.jpg" alt="product">
+    <img src="9.jpg" alt="product">
+    <img src="10.jpg" alt="product">
+    <img src="11.jpg" alt="product">
+    <img src="12.jpg" alt="product">
+    <img src="13.jpg" alt="product">
+    <img src="14.jpg" alt="product">
+    <img src="15.jpg" alt="product">
+    <img src="16.jpg" alt="product">
+    <img src="17.jpg" alt="product">
+    <img src="18.jpg" alt="product">
+    <img src="19.jpg" alt="product">
+    <img src="20.jpg" alt="product">
+    <img src="21.jpg" alt="product">
+  </div>  <footer>
+    <div>
+      <img src="mobile.png" alt="mobile" class="contact-icon">
+      شماره تماس: ۰۹۱۲۷۸۶۰۶۸۲
+    </div>
+    <div>
+      <img src="instagram.png" alt="instagram" class="contact-icon">
+      <a href="https://www.instagram.com/bazargani_barantejarat" target="_blank">bazargani_barantejarat</a>
+    </div>
   </footer>
-
 </body>
 </html>
