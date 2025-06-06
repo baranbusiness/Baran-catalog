@@ -1,91 +1,99 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>باران تجارت | Baran Business Pro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کاتالوگ باران تجارت</title>
   <style>
     body {
       font-family: Tahoma, sans-serif;
-      text-align: center;
       background-color: #fff;
       margin: 0;
       padding: 0;
+      text-align: center;
       direction: rtl;
     }
     header {
-      padding: 20px 10px;
-      background-color: #f2f2f2;
-      border-bottom: 1px solid #ccc;
+      padding: 20px;
+      background-color: #f5f5f5;
     }
     header img {
-      max-width: 150px;
-      margin: 0 auto 10px;
-      display: block;
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
     }
     h1 {
-      font-size: 22px;
       margin: 10px 0 5px;
     }
     h2 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #444;
+    }
+    .contact {
+      margin: 10px 0;
       font-size: 16px;
-      color: #555;
-      margin: 5px 0 15px;
     }
-    p {
-      margin: 5px;
-      font-size: 15px;
-    }
-    a {
+    .contact a {
       color: #007bff;
       text-decoration: none;
     }
-    img.catalog {
-      max-width: 95%;
-      margin: 20px auto;
-      display: block;
-      border: 1px solid #ddd;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="logo.jpg" alt="لوگوی باران تجارت" />
+    <img src="logo.jpg" alt="لوگوی باران تجارت">
     <h1>باران تجارت | Baran Business Pro</h1>
     <h2>حرفه‌ای (Pro) در ارائه محصولات با کیفیت</h2>
-    <p>شماره تماس: ۰۹۱۲۱۲۳۴۵۶۷</p>
-    <p>
+    <div class="contact">
+      شماره تماس: <strong>۰۹۱۲۷۸۶۰۶۸۲</strong><br>
       اینستاگرام:
       <a href="https://www.instagram.com/bazargani_barantejarat?igsh=dHoycjJpNGYyOXg4&utm_source=qr" target="_blank">
         @bazargani_barantejarat
       </a>
-    </p>
+    </div>
   </header>
 
-  <!-- گالری عکس‌ها -->
-  <img src="1.jpg" alt="صفحه 1" class="catalog" />
-  <img src="2.jpg" alt="صفحه 2" class="catalog" />
-  <img src="3.jpg" alt="صفحه 3" class="catalog" />
-  <img src="4.jpg" alt="صفحه 4" class="catalog" />
-  <img src="5.jpg" alt="صفحه 5" class="catalog" />
-  <img src="6.jpg" alt="صفحه 6" class="catalog" />
-  <img src="7.jpg" alt="صفحه 7" class="catalog" />
-  <img src="8.jpg" alt="صفحه 8" class="catalog" />
-  <img src="9.jpg" alt="صفحه 9" class="catalog" />
-  <img src="10.jpg" alt="صفحه 10" class="catalog" />
-  <img src="11.jpg" alt="صفحه 11" class="catalog" />
-  <img src="12.jpg" alt="صفحه 12" class="catalog" />
-  <img src="13.jpg" alt="صفحه 13" class="catalog" />
-  <img src="14.jpg" alt="صفحه 14" class="catalog" />
-  <img src="15.jpg" alt="صفحه 15" class="catalog" />
-  <img src="16.jpg" alt="صفحه 16" class="catalog" />
-  <img src="17.jpg" alt="صفحه 17" class="catalog" />
-  <img src="18.jpg" alt="صفحه 18" class="catalog" />
-  <img src="19.jpg" alt="صفحه 19" class="catalog" />
-  <img src="20.jpg" alt="صفحه 20" class="catalog" />
-  <img src="21.jpg" alt="صفحه 21" class="catalog" />
+  <div class="gallery">
+    <!-- عکس‌ها از 1 تا 21 -->
+    <img src="1.jpg" alt="">
+    <img src="2.jpg" alt="">
+    <img src="3.jpg" alt="">
+    <img src="4.jpg" alt="">
+    <img src="5.jpg" alt="">
+    <img src="6.jpg" alt="">
+    <img src="7.jpg" alt="">
+    <img src="8.jpg" alt="">
+    <img src="9.jpg" alt="">
+    <img src="10.jpg" alt="">
+    <img src="11.jpg" alt="">
+    <img src="12.jpg" alt="">
+    <img src="13.jpg" alt="">
+    <img src="14.jpg" alt="">
+    <img src="15.jpg" alt="">
+    <img src="16.jpg" alt="">
+    <img src="17.jpg" alt="">
+    <img src="18.jpg" alt="">
+    <img src="19.jpg" alt="">
+    <img src="20.jpg" alt="">
+    <img src="21.jpg" alt="">
 
+    <!-- عکس‌های جدید اضافه‌شده -->
+    <img src="4- ghand -- copy.jpg" alt="">
+    <img src="4-jelly copy.jpg" alt="">
+    <img src="7-shekarpanir copy.jpg" alt="">
+    <img src="8-advie copy 3.jpg" alt="">
+  </div>
 </body>
 </html>
